@@ -1,0 +1,68 @@
+<html>
+
+<head>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+
+    <!-- Whole Wrapper -->
+    <div class="main-wrapper">
+
+
+        <!-- Section-1 -->
+        <div id="Section-1">
+
+            <!-- S-1-Heading -->
+            <div class="S-1-h">
+                <h2 class="Main-Heading">Metric/Imperial unit conversion</h2>
+            </div>
+
+
+            <!-- S-1-input -->
+            <div id="variable" class="S-1-V">
+                <input id="input" class="var-input" type="number" placeholder="0" onchange="Calculate()">
+
+                </input>
+            </div>
+        </div>
+
+
+        <!-- Section-2 -->
+        <div id="Section-2">
+
+            <!-- S-2-Divs -->
+            <div>
+                <h3 class="Length">Length (Meter/Feet)</h3>
+                <p id="Length-Value" class="L-value">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+
+            <div>
+                <h3 class="Volume"> Volume (Liters/Gallons)</h3>
+                <p id="Volume-Value" class="V-value">0 liters = 0.000 gallons | 0 gallons = 0.000 liters </p>
+            </div>
+
+            <div>
+                <h3 class="Mass"> Mass (Kilograms/Pounds)</h3>
+                <p id="Mass-Value" class="M-value">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+html, body {
+
+    background-color: #1c1c1c;
+    color: white;
+
+    /* For aligning Main-Wrapper Center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* <!-- Whole Wrapper --> */
+
+.main-wrapper {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+
+
+
+    background: #1F2937;
+}
+
+/* <!-- Section-1 --> */
+
+#Section-1 {
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+
+background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+/* <!-- S-1-Heading --> */
+
+#Section-1 .S-1-h .Main-Heading {
+    /* Heading */
+
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+/* Styling the Input Field */
+input {
+    all: unset;
+    overflow: auto;
+    caret-color: transparent;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+#Section-1 .var-input {
+
+    /* number to convert */
+
+    height:100%;
+    position: absolute;
+    width: 211px;
+    height: 51.23px;
+    left: 169px;
+    top: 50px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    /* or 25% */
+
+    height:100%;
+
+    text-align: center;
+
+    /* Removing the Design of Input */
+    border: none; 
+border-width: 0; 
+box-shadow: none;
+
+    color: #FFFFFF;
+}
+
+
+
+/* Section-2 */
+#Section-2 {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+#Section-2 h3{
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 102px;
+    top: 297px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#Section-2 .Length{
+    top: 287px;
+}
+
+#Section-2 .Volume{
+    top: 369px;
+}
+#Section-2 .Mass{
+    top: 451px;
+}
+
+/* Section-2 VAlues */
+
+#Section-2 p {
+    /* Supporting text */
+
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 102px;
+    top: 327px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #D2D2D2;
+}
+
+#Section-2 .L-value {
+    top: 317px;
+}
+
+#Section-2 .V-value {
+    top: 399px;
+}
+
+#Section-2 .M-value {
+    top: 481px;
+}
